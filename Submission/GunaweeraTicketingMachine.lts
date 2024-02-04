@@ -1,0 +1,32 @@
+range RANGE_OF_PAPER_TRAY = 0..3
+const EMPTY_PAPER_TRAY_VALUE = 0
+const FULL_PAPER_TRAY_VALUE = 3
+
+// ones who acess the printer
+set Passengers = { p2, p3 }
+set Users = { Passengers, technician }
+
+// Prohibited students and technicians actions separately
+set ProhibitedActionsForPassenger = { acquireRefill, fill, cannotFill }
+set ProhibitedActionsForTechnician = { acquirePrint }
+
+TICKETING_MACHINE = TICKETING_MACHINE_IN_OPERATION[FULL_PAPER_TRAY_VALUE],
+TICKETING_MACHINE_IN_OPERATION[papersInTray: RANGE_OF_PAPER_TRAY] = 
+									if (papersInTray > EMPTY_PAPER_TRAY_VALUE)// paper level in tray is suffiecient
+									then (acquirePrint -> release -> TICKETING_MACHINE_IN_OPERATION[papersInTray - 1]
+											| acquireRefill -> cannotFill -> release -> TICKETING_MACHINE_IN_OPERATION[papersInTray])
+									else // paper limit in the printer is over
+										(acquireRefill -> fill -> release -> TICKETING_MACHINE_IN_OPERATION[FULL_PAPER_TRAY_VALUE]).
+
+PASSENGER_PROCESS(DOCUMENTS = 1) = USE_THE_TICKET_MACHINE[1],
+USE_THE_TICKET_MACHINE[documentNumber: 1..DOCUMENTS] = (acquirePrint -> printDocument[documentNumber] -> release ->
+								if(documentNumber + 1 <= DOCUMENTS) // Checking if the students documents are not yet printed
+								then USE_THE_TICKET_MACHINE[documentNumber + 1] // print students next document using the printer in the next turn
+								else (terminate -> END)) + ProhibitedActionsForPassenger.
+
+TECHNICIAN_PROCESS = (acquireRefill -> { fill, cannotFill } -> release -> TECHNICIAN_PROCESS | terminate -> END) + ProhibitedActionsForTechnician.
+
+|| TICKETING_SYSTEM_COMPOSITION = (p3: PASSENGER_PROCESS(3) || p2: PASSENGER_PROCESS(2) || technician: TECHNICIAN_PROCESS || Users :: TICKETING_MACHINE) 
+		/ {terminate/Users.terminate}.
+
+ // All Users needs to be terminated synchronously 

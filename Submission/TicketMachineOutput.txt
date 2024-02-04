@@ -1,0 +1,98 @@
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.738]  Creating Thread Groups....
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.759]  Created Passenger Thread Group...finished.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.760]  Creating Technicians Thread Group...finished.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.760]  Initializing TicketMachine Object.....
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.762]  Initializing TicketMachine Object finished.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.763]  Initialized Passenger [Jayana].
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.763]  Initialized Passenger [Kalana].
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.763]  Initialized Passenger [Lanka].
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.764]  Initialized Passenger [Sudesh].
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.764]  Initialized Paper Technician.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.765]  Initialized Toner Technician.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.765]  Passenger Thread [Jayana] Started....
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.766]  Passenger Thread [Kalana] Started....
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.766]  Passenger Thread [Lanka] Started....
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.767]  Lanka is printing ticket1 with page length 3.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.767]  Passenger Thread [Sudesh] Started....
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.768]  Successfully printed the ticket document. New Paper Level is 37 and Toner Level is 7.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.768]  Paper Technician Thread Started....
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.769]  Jayana is printing ticket1 with page length 4.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.769]  Successfully printed the ticket document. New Paper Level is 33 and Toner Level is 3.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:18.769]  Toner Technician Thread Started....
+[TICKETMACHINE]  [WARN] [2024-01-12 00:18:18.770]  Out of toner. Current Toner Level is 3.
+[TICKETMACHINE]  [WARN] [2024-01-12 00:18:18.770]  Out of toner. Current Toner Level is 3.
+[PAPER TECHNICIAN]  [INFO] [2024-01-12 00:18:18.771]  Checking paper... Refilling TicketMachine with paper... .
+[PAPER TECHNICIAN]  [INFO] [2024-01-12 00:18:18.771]  Refilled tray with a pack of paper. New Paper Level: 83.
+[TONER TECHNICIAN]  [WARN] [2024-01-12 00:18:18.771]  Toner is low, current toner level is 3.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:18.772]  Toner is replaced, new toner level is 503.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.772]  Kalana is printing ticket1 with page length 6.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.772]  Successfully printed the ticket document. New Paper Level is 77 and Toner Level is 497.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.773]  Sudesh is printing ticket1 with page length 5.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:18.773]  Successfully printed the ticket document. New Paper Level is 72 and Toner Level is 492.
+[PAPER TECHNICIAN]  [INFO] [2024-01-12 00:18:21.126]  Checking paper... Refilling TicketMachine with paper... .
+[PAPER TECHNICIAN]  [INFO] [2024-01-12 00:18:21.149]  Refilled tray with a pack of paper. New Paper Level: 122.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:21.342]  Lanka is printing ticket2 with page length 3.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:21.344]  Successfully printed the ticket document. New Paper Level is 119 and Toner Level is 489.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:21.570]  Jayana is printing ticket2 with page length 4.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:21.573]  Successfully printed the ticket document. New Paper Level is 115 and Toner Level is 485.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:21.751]  Checking toner...No need to replace the toner, Current toner Level is 485.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:22.755]  Kalana is printing ticket2 with page length 1.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:22.757]  Successfully printed the ticket document. New Paper Level is 114 and Toner Level is 484.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:22.759]  Checking toner...No need to replace the toner, Current toner Level is 484.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:23.010]  Sudesh is printing ticket2 with page length 4.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:23.011]  Successfully printed the ticket document. New Paper Level is 110 and Toner Level is 480.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:23.011]  Checking toner...No need to replace the toner, Current toner Level is 480.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:24.408]  Kalana is printing ticket3 with page length 4.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:24.409]  Successfully printed the ticket document. New Paper Level is 106 and Toner Level is 476.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:24.410]  Checking toner...No need to replace the toner, Current toner Level is 476.
+[PAPER TECHNICIAN]  [INFO] [2024-01-12 00:18:25.261]  Checking paper... Refilling TicketMachine with paper... .
+[PAPER TECHNICIAN]  [INFO] [2024-01-12 00:18:25.262]  Refilled tray with a pack of paper. New Paper Level: 156.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:25.263]  Checking toner...No need to replace the toner, Current toner Level is 476.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:25.577]  Sudesh is printing ticket3 with page length 9.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:25.578]  Successfully printed the ticket document. New Paper Level is 147 and Toner Level is 467.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:25.580]  Checking toner...No need to replace the toner, Current toner Level is 467.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:25.688]  Lanka is printing ticket3 with page length 8.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:25.692]  Successfully printed the ticket document. New Paper Level is 139 and Toner Level is 459.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:25.695]  Checking toner...No need to replace the toner, Current toner Level is 459.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:26.265]  Jayana is printing ticket3 with page length 4.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:26.266]  Successfully printed the ticket document. New Paper Level is 135 and Toner Level is 455.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:26.267]  Checking toner...No need to replace the toner, Current toner Level is 455.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:27.263]  Kalana is printing ticket4 with page length 6.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:27.265]  Successfully printed the ticket document. New Paper Level is 129 and Toner Level is 449.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:27.267]  Checking toner...No need to replace the toner, Current toner Level is 449.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:27.771]  Sudesh is printing ticket4 with page length 7.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:27.773]  Successfully printed the ticket document. New Paper Level is 122 and Toner Level is 442.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:27.775]  Checking toner...No need to replace the toner, Current toner Level is 442.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:29.271]  Sudesh is printing ticket5 with page length 1.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:29.271]  Successfully printed the ticket document. New Paper Level is 121 and Toner Level is 441.
+[PASSENGER]  [INFO] [2024-01-12 00:18:29.271]  Sudesh Finished printing : 5.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:29.272]  Checking toner...No need to replace the toner, Current toner Level is 441.
+[PAPER TECHNICIAN]  [INFO] [2024-01-12 00:18:29.430]  Paper Technician Finished, packs of paper used 3.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:29.948]  Lanka is printing ticket4 with page length 3.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:29.950]  Successfully printed the ticket document. New Paper Level is 118 and Toner Level is 438.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:29.952]  Checking toner...No need to replace the toner, Current toner Level is 438.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:29.962]  Jayana is printing ticket4 with page length 5.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:29.963]  Successfully printed the ticket document. New Paper Level is 113 and Toner Level is 433.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:29.965]  Checking toner...No need to replace the toner, Current toner Level is 433.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:31.596]  Kalana is printing ticket5 with page length 1.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:31.596]  Successfully printed the ticket document. New Paper Level is 112 and Toner Level is 432.
+[PASSENGER]  [INFO] [2024-01-12 00:18:31.597]  Kalana Finished printing : 5.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:31.597]  Checking toner...No need to replace the toner, Current toner Level is 432.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:34.236]  Lanka is printing ticket5 with page length 3.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:34.236]  Successfully printed the ticket document. New Paper Level is 109 and Toner Level is 429.
+[PASSENGER]  [INFO] [2024-01-12 00:18:34.237]  Lanka Finished printing : 5.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:34.237]  Checking toner...No need to replace the toner, Current toner Level is 429.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:34.945]  Jayana is printing ticket5 with page length 2.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:34.946]  Successfully printed the ticket document. New Paper Level is 107 and Toner Level is 427.
+[PASSENGER]  [INFO] [2024-01-12 00:18:34.947]  Jayana Finished printing : 5.
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:34.948]  Checking toner...No need to replace the toner, Current toner Level is 427.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:34.949]  Passenger Thread [Jayana] Finished execution.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:34.950]  Passenger Thread [Kalana] Finished execution.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:34.950]  Passenger Thread [Lanka] Finished execution.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:34.951]  Passenger Thread [Sudesh] Finished execution.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:34.951]  Paper Technician Thread Finished execution.
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:39.951]  No requests for printing Ticket documents.....
+[TICKETMACHINE]  [INFO] [2024-01-12 00:18:44.531]  No requests for printing Ticket documents.....
+[TONER TECHNICIAN]  [INFO] [2024-01-12 00:18:49.081]  Toner Technician Finished, cartridges replaced 1.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:49.081]  Toner Technician Thread Finished execution.
+[PRINTING SYSTEM]  [INFO] [2024-01-12 00:18:49.082]  All tasks successfully completed, Total Number of ticket pages printed : 83, Final Status of TicketMachine Ticket{TicketMachineID: '1', Paper Level: 107, Toner Level: 427, Ticket Documents Printed: 20}.
