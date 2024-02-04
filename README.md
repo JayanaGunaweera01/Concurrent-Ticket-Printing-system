@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Ticket Printing System simulates a scenario where passengers share a printer to print their tickets. The system involves multiple passengers and two technicians. One technician is responsible for refilling paper when it runs out, while the other technician replaces the toner cartridge when needed. This system is implemented using Java concurrency features, including threads, thread groups, and a monitor.
+This is the coursework implemented for MODULE: (2023) 6SENG006C.1 Concurrent Programming module.The Ticket Printing System simulates a scenario where passengers share a printer to print their tickets. The system involves multiple passengers and two technicians. One technician is responsible for refilling paper when it runs out, while the other technician replaces the toner cartridge when needed. This system is implemented using Java concurrency features, including threads, thread groups, and a monitor.
 
 ## Part 1: FSP Processes
 
