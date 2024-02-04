@@ -16,7 +16,7 @@ Translate the FSP model into a multi-threaded Java program. Leverage appropriate
 
 ### Screenshots
 
-<img src="https://github.com/JayanaGunaweera01/Concurrent-Ticket-Printing-system/assets/79576139/7a21561b-68d9-4a72-ba8d-1a9a718897c9" width="200">
+<img src="https://github.com/JayanaGunaweera01/Concurrent-Ticket-Printing-system/assets/79576139/7a21561b-68d9-4a72-ba8d-1a9a718897c9" width="400">
 
 ### Usage
 
