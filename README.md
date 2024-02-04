@@ -16,7 +16,7 @@ Translate the FSP model into a multi-threaded Java program. Leverage appropriate
 
 ### Screenshots
 
-<img src="https://github.com/JayanaGunaweera01/Concurrent-Ticket-Printing-system/issues/1" width="185">
+![FSP Model](https://github.com/JayanaGunaweera01/Concurrent-Ticket-Printing-system/issues/1)
 
 ### Usage
 
@@ -24,7 +24,6 @@ Translate the FSP model into a multi-threaded Java program. Leverage appropriate
 
 - Java JDK 21
 - LTSA Tool (for FSP modeling)
-- Any other relevant tools or libraries
 
 #### How to Run
 
